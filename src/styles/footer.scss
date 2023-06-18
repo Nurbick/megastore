@@ -1,0 +1,40 @@
+.footer{
+  padding: 50px 0 50px;
+  background: #272A35;
+  &__logo{
+    cursor: pointer;
+  }
+  &__up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__links{
+    display: flex;
+    column-gap: 80px;
+  }
+  &__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  &__number{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  &__call{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  &__down{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

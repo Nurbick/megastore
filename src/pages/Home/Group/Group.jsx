@@ -1,5 +1,5 @@
 import React from 'react';
-import {useGetGroupsQuery} from "../../redux/groups";
+import {useGetGroupsQuery} from "../../../redux/reducers/groups";
 
 const Group = () => {
 
@@ -18,13 +18,14 @@ const Group = () => {
                         data.map((item)=>(
                             <li key={item.id} className="group__item">
                                 <div className="group__item-img">
-                                    <img src="" alt={item.name}/>
+                                    <img src={`${item.img}`} alt={item.name}/>
                                 </div>
                                 <h3 className="group__item-title">{item.name}</h3>
                             </li>
                         ))
                     }
                 </ul>
+
             </div>
         </section>
     );

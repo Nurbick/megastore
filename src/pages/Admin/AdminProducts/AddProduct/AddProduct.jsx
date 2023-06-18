@@ -1,5 +1,5 @@
 import React from 'react';
-import {useAddProductsMutation} from "../../../redux/reducers/products";
+import {useAddProductsMutation} from "../../../../redux/reducers/products";
 
 const AddProduct = () => {
 

@@ -1,0 +1,75 @@
+.header{
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05);
+  &__nav{
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__basket{
+    background: $purple;
+    width: 70px;
+    height: 60px;
+    padding: 15px 15px 15px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    &-length{
+      background: #272A35;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -5px;
+      right: -5px;
+    }
+  }
+  &__logo{
+    margin-right: 80px;
+    cursor: pointer;
+  }
+  &__user{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: $purple;
+    margin-right: 30px;
+    transition: .5s;
+    cursor: pointer;
+    &:hover{
+      transition: .5s;
+      transform: scale(1.3);
+    }
+  }
+  &__links{
+    display: flex;
+    column-gap: 80px;
+    margin-right: 50px;
+    align-items: center;
+  }
+  &__link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $black;
+  }
+}
+
+@media (width: 1024px) {
+  .header{
+    padding: 0 10px;
+    &__links{
+      column-gap: 60px;
+    }
+    &__link{
+      font-size: 13px;
+    }
+    &__user{
+      margin-right: 20px;
+    }
+  }
+}

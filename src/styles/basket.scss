@@ -1,0 +1,78 @@
+.basket{
+  padding: 50px 0 150px;
+  button{
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+  &__desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px;
+    &-item{
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 150%;
+      color: #254eff;
+    }
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #28285A;
+  }
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    &-name{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      color: #4E4E4E;
+      cursor: pointer;
+    }
+    &-price{
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 150%;
+      color: #282828;
+      margin-right: 215px;
+    }
+    &-sum{
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 150%;
+      color: #282828;
+    }
+    &-right{
+      display: flex;
+      column-gap: 50px;
+      align-items: center;
+    }
+    &-count{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      &-num{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 150%;
+        color: #282828;
+      }
+    }
+  }
+}
+.name{
+  margin-left: 35px;
+  margin-right: 270px;
+}
+.price{
+  margin-right: 230px;
+}
+.quantity{
+  margin-right: 65px;
+}

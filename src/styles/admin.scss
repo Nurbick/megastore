@@ -1,0 +1,117 @@
+.admin{
+  padding: 40px 0;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #28285A;
+  }
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  &__left{
+    width: 20%;
+  }
+  &__right{
+    width: 80%;
+    border: $purple 2px solid;
+  }
+  &__tools{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__tool{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2B37;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+      transition: .5s;
+      font-size: 20px;
+    }
+  }
+}
+.adminProducts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  &__product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $purple 2px solid;
+    padding: 20px 10px 20px 0;
+  }
+  &__buttons2{
+    border-bottom: $purple 2px solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  &__name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2B2B37;
+  }
+  &__button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+}
+.adminApplications{
+  padding: 20px;
+  &__application{
+    margin-top: 30px;
+    border-bottom: $purple 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+  &__name{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    color: $purple;
+  }
+  &__number{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4E4E4E;
+  }
+  &__email{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+  }
+  &__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

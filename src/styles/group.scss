@@ -1,0 +1,39 @@
+.group{
+  background: $purple;
+  padding: 100px 0 100px;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__groups{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__item{
+    width: calc(25% - 22.5px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    &-img{
+      background: #ffffff;
+      border: none;
+      border-radius: 50%;
+      padding: 35px 52px 35px 52px;
+      cursor: pointer;
+      transition: .5s;
+      &:hover{
+        transform: scale(1.3);
+      }
+    }
+  }
+}

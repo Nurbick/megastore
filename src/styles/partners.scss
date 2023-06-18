@@ -1,0 +1,24 @@
+.partners{
+  padding: 100px 0 100px;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #28285A;
+    margin-bottom: 60px;
+  }
+  &__content{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__item{
+    width: calc(25% - 30px);
+    height: calc(50% - 20px);
+  }
+}
